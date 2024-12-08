@@ -1,0 +1,51 @@
+<style>
+.blogv2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: .1rem;
+}
+.item-blog {
+  width: 100%;
+  display: grid;
+  cursor: default;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+  font-size: 12px;
+  line-height: 1.4;
+  background: #0a0f0b;
+  margin-bottom: .1rem;
+grid-template-areas: 'p' 'd' 't' 'j';
+}
+.item-blog img {
+  max-width: 100%;
+}
+.item-blog .post-info {display: contents}
+.item-blog .gambar {
+  grid-area: t;
+}
+.item-blog h3 {
+  grid-area: j;
+font-size: 1rem;
+font-weight: 500;
+margin-top: .5rem;
+}
+.item-blog h3 a {color: white}
+.item-blog .pub {
+  grid-area: p;
+display: flex;
+gap: 4px;
+align-items: center;
+}
+.item-blog .desc {
+  grid-area: d;
+}
+.item-blog .pub span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.item-blog .pub span:nth-child(3) {
+  margin-inline-start: auto;
+}
+</style>
