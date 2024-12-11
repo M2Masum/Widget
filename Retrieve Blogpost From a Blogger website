@@ -148,4 +148,6 @@ align-items: center;
     }
   }
 </script>
+<!--Example URL to retrieve  blogpost with a specific label.
+Our designated label is "Blogger," and it should be placed before the "?max-results" parameter. -->
 <script src="https://www.wendycode.com/feeds/posts/summary/-/Blogger?max-results=3&alt=json-in-script&callback=mycallback"></script>
